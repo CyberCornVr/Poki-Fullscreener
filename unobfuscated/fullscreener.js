@@ -1,1 +1,1 @@
-var elem = document.getElementById("game-element");  function openFullscreen() {if (elem.requestFullscreen) {elem.requestFullscreen();} else if (elem.webkitRequestFullscreen) {elem.webkitRequestFullscreen();} else if (elem.msRequestFullscreen) {elem.msRequestFullscreen();}};  openFullscreen();
+const e = document.getElementById("game-element"); (function(){if (e.requestFullscreen) {e.requestFullscreen();} else if (e.webkitRequestFullscreen) {e.webkitRequestFullscreen();} else if (e.msRequestFullscreen) {e.msRequestFullscreen();}})();
